@@ -1,0 +1,8 @@
+name: SNNUnet
+channels:
+  - defaults
+dependencies:
+  - python=3.10.14        # Specify your desired Python version
+  - pip                   # Include pip so you can install Python packages
+  - pip:
+      - -e .              # Install your package in editable mode (uses setup.py)
